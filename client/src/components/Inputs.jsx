@@ -11,7 +11,7 @@ export default function Inputs() {
             return;
         }
         try {
-            await axios.post('http://localhost:5000/api/telegram/info_user', {
+            await axios.post('https://portfolio-server-9plw.onrender.com/api/telegram/info_user', {
                 name,
                 phone,
                 email,

@@ -12,7 +12,7 @@ export default function Reviews() {
             return
         }
         try {
-            await axios.post('http://localhost:5000/api/telegram/comment_user', {
+            await axios.post('https://portfolio-server-9plw.onrender.com/api/telegram/comment_user', {
                 name, message
             })
             setOpen(false)
