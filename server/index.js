@@ -7,7 +7,7 @@ const app = express()
 dotenv.config()
 app.use(cors())
 // import { register } from "./logic/auth.js";
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 5000
 const DB_NAME = process.env.DB_NAME
 const DB_PASSWORD = process.env.DB_PASSWORD
 const DB_USER = process.env.DB_USER
